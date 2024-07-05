@@ -38,7 +38,7 @@ The web interface will be developed using the following technologies:
 <br><br>
 To support this web interface, it will be necessary to build an API (Web Service) using the Java language and some frameworks. The API will store information in an Oracle relational database and make it available as a web service. This will allow the web application, or any future application (such as the mobile version planned for the second year), to interact with the application's business rules and data model.</em></p>
 <br>
-<h2 align="left">🫶 Primeira Etapa | <em>First Level</em></h2>
+<h2 align="left">☝️ Primeira Etapa | <em>First Level</em></h2>
 
 <p align="justify"><strong>[PT] Formalização do projeto e do escopo utilizando artefatos da Gestão Ágil de Projetos, como o Framework Scrum. Elaboração do documento de visão do projeto.</strong></p>
 <p align="justify">[EN]<em> Formalization of the project and scope using Agile Project Management artifacts, such as the Scrum Framework. Preparation of the project vision document.</em></p>
