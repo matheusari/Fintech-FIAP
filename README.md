@@ -41,13 +41,13 @@ To support this web interface, it will be necessary to build an API (Web Service
 
 <h2 align="left">🫶 Primeira Etapa | <em>First Level</em></h2>
 
-<p align="justify"><strong>[PT] Formalização do projeto e do escopo utilizando artefatos da Gestão Ágil de Projetos, como o Framework Scrum. Preparação da infraestrutura para o desenvolvimento e início com Lógica de Programação e Python.</strong></p>
-<p align="justify">[EN]<em> Project formalization and scope definition using Agile Project Management artifacts, such as the Scrum Framework. Preparation of the development infrastructure and starting with Programming Logic and Python.</em></p>
+<p align="justify"><strong>[PT] Formalização do projeto e do escopo utilizando artefatos da Gestão Ágil de Projetos, como o Framework Scrum. Elaboração do documento de visão do projeto.</strong></p>
+<p align="justify">[EN]<em> Formalization of the project and scope using Agile Project Management artifacts, such as the Scrum Framework. Preparation of the project vision document.</em></p>
 
 <h2 align="left">⏱️ Segunda Etapa | <em>Second Level</em></h2>
 
-<p align="justify"><strong>[PT] Continuação da formalização do projeto com documentação de casos de uso e construção dos primeiros algoritmos. Cálculo do tempo e custo do projeto, montagem do cronograma em formato de Kanban, e idealização do protótipo do Fintech.</strong></p>
-<p align="justify">[EN]<em> Continuation of project formalization with use case documentation and construction of the first algorithms. Calculation of project time and cost, creation of the schedule in Kanban format, and conceptualization of the Fintech prototype.</em></p>
+<p align="justify"><strong>[PT] Construção dos wireframes do projeto.</strong></p>
+<p align="justify">[EN]<em> Construction of project wireframes.</em></p>
 
 
 <h2 align="left">🧑‍💻 Terceira Etapa | <em>Third Level</em></h2>
