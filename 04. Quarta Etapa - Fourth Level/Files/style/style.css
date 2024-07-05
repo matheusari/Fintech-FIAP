@@ -1,0 +1,161 @@
+/* Importando fontes */
+@font-face {
+  font-family: "azonix-logo";
+  src: url("fonts/azonix/Azonix.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "cocogoose-title";
+  src: url("fonts/cocogoose/Cocogoose-Pro-Light.ttf") format("truetype");
+}
+
+/* Resetando as configurações padrões da página */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Cor de fundo da página */
+body {
+  background-color: #282a36;
+}
+
+.header-background {
+  position: absolute; /* Torna a posição do elemento baseado no primeiro ancestral posicionado */
+  top: 0; /* Posiciona o elemento no topo da página */
+  z-index: 1; /* Garante que este elemento fique abaixo do header */
+
+  height: 65px;
+  width: 100%;
+
+  background-color: #191a21;
+}
+
+/* Retângulo que todo o conteúdo está. Limitado em largura */
+.breakpoint {
+  position: relative; /* Permite usar z-index */
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: auto;
+  width: 100%;
+  max-width: 1700px;
+
+  margin: 0 auto; /* Centralizando a página */
+  background-color: #282a36;
+
+  padding: 65px 20px 0 20px;
+}
+
+header {
+  position: absolute; /* Torna a posição do elemento baseado no primeiro ancestral posicionado */
+  top: 0; /* Posiciona o elemento no topo do breakpoint */
+  z-index: 3; /* Garante que este elemento fique acima do header-background */
+
+  height: 65px; /* Ajusta a altura para ser igual à do header-background */
+  width: 100%;
+  max-width: 1700px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 65px;
+  background-color: #191a21;
+
+  padding: 10px 20px 0px 20px;
+}
+
+.logo {
+  font-family: "azonix-logo";
+  font-size: 22px;
+  color: #4fff6a;
+
+  cursor: default;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  font-family: "cocogoose-title";
+  font-size: 12px;
+  color: #4d6fa2;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-icon i {
+  color: #4d6fa2;
+  font-size: 22px;
+}
+
+.button-style {
+  font-family: "cocogoose-title";
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn {
+  border: solid 1px;
+  border-radius: 20px;
+}
+
+@media (max-width: 500px) {
+  nav ul {
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+
+    gap: 0;
+    top: 65px;
+    left: 0;
+    right: 0;
+    background-color: #21222c;
+
+    overflow: hidden;
+  }
+  nav ul li {
+    padding: 20px;
+    padding-top: 0;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .first-menuList {
+    padding-top: 20px;
+  }
+  #menuList {
+    transition: all 0.4s;
+  }
+
+  /*Deixando sem hover pois não funciona corretamente em mobile */
+  nav ul li a:hover {
+    color: #4d6fa2;
+    transition: all 0.2s;
+  }
+}
