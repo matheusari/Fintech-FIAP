@@ -39,42 +39,42 @@ The web interface will be developed using the following technologies:
 To support this web interface, it will be necessary to build an API (Web Service) using the Java language and some frameworks. The API will store information in an Oracle relational database and make it available as a web service. This will allow the web application, or any future application (such as the mobile version planned for the second year), to interact with the application's business rules and data model.</em></p>
 
 
-<h2 align="left">Primeira Etapa | <em>First Level</em></h2>
+<h2 align="left">🫶 Primeira Etapa | <em>First Level</em></h2>
 
 <p align="justify"><strong>[PT] Formalização do projeto e do escopo utilizando artefatos da Gestão Ágil de Projetos, como o Framework Scrum. Preparação da infraestrutura para o desenvolvimento e início com Lógica de Programação e Python.</strong></p>
 <p align="justify">[EN]<em> Project formalization and scope definition using Agile Project Management artifacts, such as the Scrum Framework. Preparation of the development infrastructure and starting with Programming Logic and Python.</em></p>
 
-<h2 align="left">Segunda Etapa | <em>Second Level</em></h2>
+<h2 align="left">⏱️ Segunda Etapa | <em>Second Level</em></h2>
 
 <p align="justify"><strong>[PT] Continuação da formalização do projeto com documentação de casos de uso e construção dos primeiros algoritmos. Cálculo do tempo e custo do projeto, montagem do cronograma em formato de Kanban, e idealização do protótipo do Fintech.</strong></p>
 <p align="justify">[EN]<em> Continuation of project formalization with use case documentation and construction of the first algorithms. Calculation of project time and cost, creation of the schedule in Kanban format, and conceptualization of the Fintech prototype.</em></p>
 
 
-<h2 align="left">Terceira Etapa | <em>Third Level</em></h2>
+<h2 align="left">🧑‍💻 Terceira Etapa | <em>Third Level</em></h2>
 
 <p align="justify"><strong>[PT] Avanço nos algoritmos, modelagem e documentação do banco de dados relacional.</strong></p>
 <p align="justify">[EN]<em> Progress in algorithms, modeling, and documentation of the relational database.</em></p>
 
 
-<h2 align="left">Quarta Etapa | <em>Fourth Level</em></h2>
+<h2 align="left">👓 Quarta Etapa | <em>Fourth Level</em></h2>
 
 <p align="justify"><strong>[PT] Desenvolvimento da camada view da aplicação. Construção de todas as interfaces do sistema com as tecnologias web.</strong></p>
 <p align="justify">[EN]<em> Development of the application view layer. Construction of all system interfaces with web technologies.</em></p>
 
 
-<h2 align="left">Quinta Etapa | <em>Fifth Level</em></h2>
+<h2 align="left">🗒️ Quinta Etapa | <em>Fifth Level</em></h2>
 
 <p align="justify"><strong>[PT] Avanço na documentação do projeto com a parte de comunicação, aprendizagem sobre programação orientada a objetos, formalização da estrutura do projeto em um diagrama de classes e início da camada model da aplicação utilizando Java.</strong></p>
 <p align="justify">[EN]<em> Advancement in project documentation with the communication part, learning about object-oriented programming, formalization of the project structure in a class diagram, and beginning of the application model layer using Java.</em></p>
 
 
-<h2 align="left">Sexta Etapa | <em>Sixth Level</em></h2>
+<h2 align="left">💻 Sexta Etapa | <em>Sixth Level</em></h2>
 
 <p align="justify"><strong>[PT] Continuação do desenvolvimento da camada model, com foco na proximidade ao banco de dados. Criação das estruturas das tabelas no Oracle e aprendizagem sobre construção e manipulação de dados.</strong></p>
 <p align="justify">[EN]<em> Continuation of the development of the model layer, focusing on proximity to the database. Creation of table structures in Oracle and learning about data construction and manipulation.</em></p>
 
 
-<h2 align="left">Sétima Etapa | <em>Seventh Level</em></h2>
+<h2 align="left">🏆 Sétima Etapa | <em>Seventh Level</em></h2>
 
 <p align="justify"><strong>[PT] Integração da solução, unindo camadas view e model, tornando a aplicação plenamente funcional. Realização de todos os testes de software e conclusão do projeto.</strong></p>
 <p align="justify">[EN]<em> Solution integration, combining view and model layers, making the application fully functional. Performing all software tests and completing the project.</em></p>
